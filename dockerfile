@@ -30,5 +30,5 @@ RUN mkdir -p /opt/workspace
 WORKDIR /opt/workspace
 
 RUN java manage.py migrate
-EXPOSE 8080
-CMD ["java", "manage.py","runserver",0.0.0.0:8080"]
+EXPOSE 8000
+CMD ["java", "manage.py","runserver",0.0.0.0:8000"]
