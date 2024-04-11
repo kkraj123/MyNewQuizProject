@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.questionView.QuestionView">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/questionViewTV"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textview_bg_color"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:text="ngnfengn" />
+
+            <!--<androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/btn_bg"
+                android:paddingStart="15dp"
+                android:text="btn0"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/btn_bg"
+                android:paddingStart="15dp"
+                android:text="btn1"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/btn_bg"
+                android:paddingStart="15dp"
+                android:text="btn2"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/btn_bg"
+                android:paddingStart="15dp"
+                android:text="btn3"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />-->
+
+            <LinearLayout
+                android:id="@+id/radioBtnParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_bg"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
