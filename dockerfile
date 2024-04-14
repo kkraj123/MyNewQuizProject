@@ -2,6 +2,8 @@ FROM openjdk:11-jre-slim
 
 WORKDIR /app
 
-COPY ./path/to/your/application.jar /app/application.jar
+CMD ["./gradlew", "clean", "bootJar"]
 
-CMD ["java", "-jar", "application.jar"]
+COPY build/libs/*.jar app.jar
+
+EXPOSE 8080
